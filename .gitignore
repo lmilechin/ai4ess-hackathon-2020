@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Data
+notebooks/ncar-aiml-data-commons/*
+
 # C extensions
 *.so
 
