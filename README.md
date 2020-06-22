@@ -67,6 +67,7 @@ If you are not part of the hackathon, you can still run the hackathon notebooks 
 You can also run the notebooks on your own computer or a remote cluster. First install [Miniconda](https://docs.conda.io/en/latest/miniconda.html). Then install the main dependencies with 
 
 `conda create -n ai4ess -c conda-forge python=3.7 numpy scipy matplotlib pandas tqdm s3fs pyyaml netcdf4 xarray h5netcdf dask pyarrow scikit-learn jupyter zarr jupyterlab`.
+
 `conda activate ai4ess`
 
 You will need need pip to install the remaining libraries: 
